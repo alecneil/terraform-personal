@@ -1,3 +1,4 @@
+//disable this if the kms and bucket is not yet created
 terraform {
  backend "s3" {
    bucket         = "my-tfstate-bucket0123"
